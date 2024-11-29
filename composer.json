@@ -81,6 +81,10 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
+        "branch-alias": {
+            "dev-master": "mls",
+            "dev-mls": "mls"
+        },
         "laravel": {
             "providers": [
                 "BeyondCode\\LaravelWebSockets\\WebSocketsServiceProvider"
